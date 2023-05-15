@@ -1,0 +1,16 @@
+{
+    "name": "Yandex search context menu",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": {
+        "32": "yandex-logo-x32.png",
+        "128": "yandex-search-x128.png"
+      },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}
